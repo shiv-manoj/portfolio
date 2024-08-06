@@ -35,10 +35,10 @@ nav ul li a {
 
 section {
     padding: 20px;
-    margin: 20px;
+    margin: 10px;
 }
 
-section#about img {
+section#home img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -49,17 +49,20 @@ section#about img {
 }
 
 .project img {
-    width: 100%;
-    max-width: 400px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
 }
-
 footer {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
+    padding: 15px 0;
+    position: relative; /* Changed from fixed to relative */
     width: 100%;
-    height: 4%
+    height: auto; /* Allows dynamic height */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    font-size: 0.9em;
 }
+
+
